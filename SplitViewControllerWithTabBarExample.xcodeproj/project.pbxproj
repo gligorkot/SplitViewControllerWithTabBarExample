@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		865FEB221DAB51B000C00316 /* CustomSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865FEB211DAB51B000C00316 /* CustomSplitViewController.swift */; };
 		86D3DF9C1DAB44A0006D23A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D3DF9B1DAB44A0006D23A5 /* AppDelegate.swift */; };
 		86D3DF9E1DAB44A0006D23A5 /* MasterItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D3DF9D1DAB44A0006D23A5 /* MasterItemViewController.swift */; };
 		86D3DFA01DAB44A0006D23A5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D3DF9F1DAB44A0006D23A5 /* DetailViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		865FEB211DAB51B000C00316 /* CustomSplitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSplitViewController.swift; sourceTree = "<group>"; };
 		86D3DF981DAB44A0006D23A5 /* SplitViewControllerWithTabBarExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitViewControllerWithTabBarExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86D3DF9B1DAB44A0006D23A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86D3DF9D1DAB44A0006D23A5 /* MasterItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterItemViewController.swift; sourceTree = "<group>"; };
@@ -57,12 +59,13 @@
 			isa = PBXGroup;
 			children = (
 				86D3DF9B1DAB44A0006D23A5 /* AppDelegate.swift */,
-				86D3DF9D1DAB44A0006D23A5 /* MasterItemViewController.swift */,
-				86D3DF9F1DAB44A0006D23A5 /* DetailViewController.swift */,
-				86D3DFA11DAB44A0006D23A5 /* Main.storyboard */,
 				86D3DFA41DAB44A0006D23A5 /* Assets.xcassets */,
-				86D3DFA61DAB44A0006D23A5 /* LaunchScreen.storyboard */,
+				865FEB211DAB51B000C00316 /* CustomSplitViewController.swift */,
+				86D3DF9F1DAB44A0006D23A5 /* DetailViewController.swift */,
 				86D3DFA91DAB44A0006D23A5 /* Info.plist */,
+				86D3DFA61DAB44A0006D23A5 /* LaunchScreen.storyboard */,
+				86D3DFA11DAB44A0006D23A5 /* Main.storyboard */,
+				86D3DF9D1DAB44A0006D23A5 /* MasterItemViewController.swift */,
 			);
 			path = SplitViewControllerWithTabBarExample;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				865FEB221DAB51B000C00316 /* CustomSplitViewController.swift in Sources */,
 				86D3DFA01DAB44A0006D23A5 /* DetailViewController.swift in Sources */,
 				86D3DF9E1DAB44A0006D23A5 /* MasterItemViewController.swift in Sources */,
 				86D3DF9C1DAB44A0006D23A5 /* AppDelegate.swift in Sources */,
